@@ -41,7 +41,7 @@ struct zcomp_strm_multi {
 };
 
 static struct zcomp_backend *backends[] = {
-	//&zcomp_lzo,
+	&zcomp_lzo,
 	NULL
 };
 
