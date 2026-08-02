@@ -16,6 +16,7 @@
 
 #include "zcomp.h"
 #include "zcomp_lzo.h"
+#include "zcomp_lz4.h"
 
 /*
  * single zcomp_strm backend
@@ -42,6 +43,7 @@ struct zcomp_strm_multi {
 
 static struct zcomp_backend *backends[] = {
 	&zcomp_lzo,
+    &zcomp_lz4,
 	NULL
 };
 
