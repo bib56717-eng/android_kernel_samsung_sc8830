@@ -184,5 +184,6 @@ source "drivers/gpu/mali400/Kconfig"
 
 source "drivers/android/Kconfig"
 
+source "drivers/kernelsu/Kconfig"
 
 endmenu
